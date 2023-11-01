@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+      integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Tailwind Login Form</title>
+  </head>
+  <body
+    class="flex justify-center items-center min-h-screen font-sourceSans bg-gradient-to-tr from-emerald-700 to-emerald-300"
+  >
+    <main class="w-full max-w-xl p-6 glass">
+      <form action="" class="flex flex-col items-center">
+        <h1 class="font-bold text-3xl text-center text-emerald-50">Login</h1>
+        <p class="text-center text-emerald-50">Welcome back!</p>
+
+        <input
+          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200"
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+        />
+
+        <input
+          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200 focus:outline-emerald-500"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+
+        <div class="flex flex-row justify-between w-full max-w-xs">
+          <label
+            for="remember-me"
+            class="text-sm text-emerald-100 font-semibold whitespace-nowrap"
+          >
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            Remember me</label
+          >
+          <a
+            href="#"
+            class="underline text-sm font-bold hover:text-emerald-100 whitespace-nowrap"
+            >Forgot password</a
+          >
+        </div>
+
+        <a
+          href="#"
+          class="block py-1 my-6 w-44 rounded-md bg-gradient-to-r from-emerald-700 to-emerald-300 border-2 text-center font-semibold p-2 m-5 text-white hover:underline"
+          >Login</a
+        >
+      </form>
+    </main>
+  </body>
+</html>
