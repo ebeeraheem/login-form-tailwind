@@ -12,18 +12,19 @@
       referrerpolicy="no-referrer"
     />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <title>Tailwind Login Form</title>
   </head>
   <body
-    class="flex justify-center items-center min-h-screen font-sourceSans bg-gradient-to-tr from-emerald-700 to-emerald-300"
+    class="flex justify-center items-center min-h-screen font-sourceSans "
   >
     <main class="w-full max-w-xl p-6 glass">
       <form action="" class="flex flex-col items-center">
-        <h1 class="font-bold text-3xl text-center text-emerald-50">Login</h1>
-        <p class="text-center text-emerald-50">Welcome back!</p>
+        <h1 class="font-bold text-3xl text-center text-slate-50">Login</h1>
+        <p class="text-center text-slate-50">Welcome back!</p>
 
         <input
-          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200"
+          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200 focus:outline-sky-500"
           type="text"
           id="username"
           name="username"
@@ -31,7 +32,7 @@
         />
 
         <input
-          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200 focus:outline-emerald-500"
+          class="placeholder:text-sm block w-full max-w-xs rounded-md p-1 m-2 bg-gray-200 focus:outline-sky-500"
           type="password"
           id="password"
           name="password"
@@ -42,21 +43,21 @@
         <div class="flex flex-row justify-between w-full max-w-xs">
           <label
             for="remember-me"
-            class="text-sm text-emerald-100 font-semibold whitespace-nowrap"
+            class="text-sm text-slate-100 font-semibold whitespace-nowrap cursor-pointer"
           >
             <input type="checkbox" name="remember-me" id="remember-me" />
             Remember me</label
           >
           <a
             href="#"
-            class="underline text-sm font-bold hover:text-emerald-100 whitespace-nowrap"
+            class="underline text-sm font-bold text-slate-100 hover:no-underline whitespace-nowrap"
             >Forgot password</a
           >
         </div>
 
         <a
           href="#"
-          class="block py-1 my-6 w-44 rounded-md bg-gradient-to-r from-emerald-700 to-emerald-300 border-2 text-center font-semibold p-2 m-5 text-white hover:underline"
+          class="block py-1 my-6 w-44 rounded-md bg-gradient-to-r from-sky-800 to-sky-300 hover:bg-gradient-to-l from-sky-800 to-sky-300 border-2 text-center font-semibold p-2 m-5 text-white hover:underline"
           >Login</a
         >
       </form>

@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
+ 
 body {
   background-image: url("./images/blue-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+/*
 
 
 bg-gradient-to-tr from-emerald-700 to-emerald-300 
